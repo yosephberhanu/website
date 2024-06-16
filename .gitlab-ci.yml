@@ -1,14 +1,17 @@
-image: ruby:latest
+image: python:3.8
 
-variables:
-  JEKYLL_ENV: production
+before_script:
+  - pip install jupyter jupyterlab
+  - echo $PATH
+  - which jupyter
 
 pages:
   script:
-  - bundle install
-  - bundle exec jekyll build -d public
+    - jupyter nbconvert --to markdown assets/jupyter/blog.ipynb
+    - bundle install
+    - bundle exec jekyll build -d public
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - main
+    - main
