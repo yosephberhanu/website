@@ -1,11 +1,14 @@
 image: ruby:latest
 
+cache:
+  paths:
+    - vendor/ruby
+
 before_script:
   - apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
-  - gem install bundler
+  - apt-get install -y bundler
   - bundle install
-  - apt-get install -y python3-pip
-  - pip3 install jupyter jupyterlab
+  - apt-get install -y jupyter-core jupyter-notebook jupyterlab
 
 pages:
   script:
