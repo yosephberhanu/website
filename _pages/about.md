@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Graduate Student at <a href='https://www.vt.edu'>Virginia Tech</a>. .
 
