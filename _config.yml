@@ -626,5 +626,3 @@ jsonresume:
   - languages
   - interests
   - references
-gems:
-  - jekyll-nbconvert

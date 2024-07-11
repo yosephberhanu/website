@@ -2,7 +2,6 @@
 layout: page
 title: SOL
 description: SaaS for Norwegian municipalities to handle Separation of Land
-img: assets/img/dime/sol.png
 importance: 1
 category: work
 related_publications: false

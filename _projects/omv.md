@@ -2,7 +2,7 @@
 layout: page
 title: OMV
 description: SaaS for Norwegian municipalities to motor vehicle permit in the outfield
-img: assets/img/dime/sol.png
+img: assets/img/omv/1.png
 importance: 1
 category: work
 related_publications: false
