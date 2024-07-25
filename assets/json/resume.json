@@ -1,157 +1,239 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yoseph Berhanu",
+    "label": "Graduate Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "contact@yoseph.et",
+    "url": "https://yoseph.et",
+    "summary": "Over a decade of professional experience as a developer and in academia. My interest is developing systems informed by human cognitive and emotional state that assist in decision making.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "postalCode": "VA 24060",
+      "city": "Blacksburg",
       "countryCode": "US",
-      "region": "California"
+      "region": "Virginia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "X",
+        "username": "yosephberhanu",
+        "url": "https://x.com/yosephberhanu"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Department of Computer Science, Virginia Tech",
+      "position": "Graduate Assistant",
+      "url": "https://vt.edu",
+      "startDate": "2023-08-20",
+      "endDate": "date",
+      "summary": "Conducting research on cognitive support systems to enhance software developer practices at the code world no blanket lab",
+      "highlights": [
+        "Designed and conducting qualitative study to understand perspectives and expectations the source code review process",
+        "Worked as a TA for machine learning course ",
+        "Instructor of record for a course on Analysis and Design of Algorithms"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "World Bank Group, Addis Ababa, Ethiopia",
+      "position": "LIS Expert",
+      "url": "https://www.worldbank.org",
+      "startDate": "2022-03-01",
+      "endDate": "2023-06-30",
+      "highlights": [
+        "Led assessments on six Ethiopian land information systems for the Integrated Land Management Project (ILMP), driving governmental capability enhancements.",
+        "Developed high-level requirements for a national system to improve software integration and data sharing.",
+        "Outline land management information system investments, delivering key situation analyses, design recommendations and executed cost-benefit analyses"
+      ]
+    },
+    {
+      "name": "NIRAS International Consulting, Addis Ababa, Ethiopia",
+      "position": "Information Technology Expert",
+      "url": "https://www.niras.com",
+      "startDate": "2021-06-01",
+      "endDate": "2022-09-10",
+      "highlights": [
+        "Developed and maintained components for the National Rural Land Information System (NRLAIS) for the Ministry of Agriculture, Ethiopia, using Java EE and Python (QGIS plugin)",
+        "Advised on strategic decisions for the national rollout of NRLAIS, addressing incremental functionality additions and regional expansion challenges, including adapting to diverse regional rules, and open source based implmentations saving the project an estmated $10Mil over 10 years in license cost"
+      ]
+    },
+    {
+      "name": "Digital Medarbeider AS, Norway (Remote), Ethiopia",
+      "position": "Tech Lead",
+      "url": "https://www.digitalmedarbeider.no",
+      "startDate": "2019-12-01",
+      "endDate": "2021-07-30",
+      "highlights": [
+        "Designed and developed 12 microservice based SaaS applications primarly using .Net Core RESTful APIs and progressive Angular frontend apps.",
+        "Devisied and implmemented CI/CD stratages using gitlab and Azure DevOps to intoruce 45% efficency in delivary time",
+        "Developed and standardized reusable libraries and packages, including authentication, authorization, auditing services.",
+        "Designed and developed a suite of reusable libraries for authentication, authorization, auditing, communication, UI framework, and a common services library featuring semi-automatic localization and external API integration proxies scheduling that resulted in up to 28% improvement project bootstrap speed.",
+        "Led a team of 18 developers, enhancing project execution and delivering high-quality software products.",
+        "Designed and implmented map based services of cross application use including support for the nowrigian SOSI formats."
+      ]
+    },
+    {
+      "name": "DAI, Addis Ababa, Ethiopia",
+      "position": "Software Developer",
+      "url": "https://www.dai.com",
+      "startDate": "2014-11-01",
+      "endDate": "2017-06-30",
+      "highlights": [
+        "Developed two systems for rural land administation one of which went to consitute the Natioanl Rural Land Administration System",
+        "Desinged and develoved a mass registration (MASSREG) using Java EE, PostGIS, and Python-enhanced QGIS, certifying over 14 million land holders across 150 Woredas.",
+        "Designed and developed a land transaction management system that supported over 20 land transactions with customizeable rules for each that was deployed after MASSREG in all Woredas.",
+        "Designed a custom MIS with Laravel and MySQL, and pioneered an incremental synchronization feature for offline data integrity across 150 deployment sites."
+      ]
+    },
+    {
+      "name": "Addis Ababa University, Addis Ababa, Ethiopia",
+      "position": "Lecturer",
+      "url": "https://www.aau.edu.et",
+      "startDate": "2014-01-15",
+      "endDate": "2023-07-15",
+      "highlights": [
+        "Developed two systems for rural land administation one of which went to consitute the Natioanl Rural Land Administration System",
+        "Desinged and develoved a mass registration (MASSREG) using Java EE, PostGIS, and Python-enhanced QGIS, certifying over 14 million land holders across 150 Woredas.",
+        "Designed and developed a land transaction management system that supported over 20 land transactions with customizeable rules for each that was deployed after MASSREG in all Woredas.",
+        "Designed a custom MIS with Laravel and MySQL, and pioneered an incremental synchronization feature for offline data integrity across 150 deployment sites."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Virginia Tech",
+      "location": "Blacksburg, VA, USA",
+      "url": "https://www.vt.edu/",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "startDate": "2023-07-01",
+      "endDate": "2027-04-30",
+      "courses": [
+        "Working on building systems that support software developers based off their affective and cognitive state."
+      ]
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "Addis Ababa University",
+      "location": "Addis Ababa, Ethiopia",
+      "url": "https://www.aau.edu.et",
+      "area": "Computer Science",
+      "studyType": "M.Sc.",
+      "startDate": "2011-09-30",
+      "endDate": "2014-06-15",
+      "score": "3.96",
+      "courses": [
+        "Thesis: 'A Framework for Multi-source Prefetching Through Adaptive Weight' – Grade; Excellent",
+        "My thesis work implemented a federated machine learning to improve prefetching performance"
+      ]
+    },
+    {
+      "institution": "Addis Ababa University",
+      "location": "Addis Ababa, Ethiopia",
+      "url": "https://www.aau.edu.et",
+      "area": "Computer Science",
+      "studyType": "B.Sc.",
+      "startDate": "2007-09-15",
+      "endDate": "2010-06-20",
+      "score": "3.74"
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Introduction to Machine Learning with TensorFlow",
+      "date": "2022",
+      "issuer": "Udacity Nano-Degree program",
+      "url": "https://udacity.com",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Mobile Application Developer",
+      "date": "2016",
+      "issuer": "IBM",
+      "url": "https://ibm.com",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Big Data Developer - Mastery Award",
+      "date": "2016",
+      "issuer": "IBM",
+      "url": "https://ibm.com",
       "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "'Proposed Experiment on Automatic Bias Detection in Source Code Review', PPIG",
+      "publisher": "Yoseph Berhanu Alebachew and Chris Brown",
+      "releaseDate": "2024-09",
+      "url": "#",
+      "summary": "Bias is an inherent threat to human decision-making, including in decisions made during software development....."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Machine Learning",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "PyTorch",
+        "Scikit-learn",
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "Java",
+        "JavaScript/TypeScript",
+        "C#",
+        "PHP",
+        "Angular",
+        "Spring Boot",
+        "Java EE",
+        ".NET Core",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Research",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Quantitative",
+        "Qualitative Research"
+      ]
+    },
+    {
+      "name": "Tools and Platforms",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Azure DevOps",
+        "GitLab CI/CD"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Microservices Architecture and SaaS",
+        "Tech Leadership",
+        "Software Project Management",
+        "Map-based Service Development",
+        "Localization",
+        "API Integration"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Amharic",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -159,42 +241,6 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }

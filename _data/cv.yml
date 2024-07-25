@@ -1,97 +1,203 @@
-- title: General Information
+- title: Personal Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Given Name
+      value: Yoseph
+    - name: Family Name
+      value: Berhanu
+    - name: Native Language
+      value: am
+    - name: Email
+      value: contact@yoseph.et
+    - name: URL
+      value: https://yoseph.et
+    - name: Summary
+      value: Over a decade of professional experience as a developer and in academia. My interest is developing systems informed by human cognitive and emotional state that assist in decision making.
+    - name: Location
+      contents:
+        - name: Postal Code
+          value: VA 24060
+        - name: City
+          value: Blacksburg
+        - name: Country Code
+          value: US
+        - name: Region
+          value: Virginia
+    - name: Profiles
+      contents:
+        - network: X
+          username: yosephberhanu
+          url: https://x.com/yosephberhanu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: Virginia Tech
+      location: Blacksburg, VA, USA
+      url: https://www.vt.edu/
+      startDate: 2023-07
+      endDate: 2027-04
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Working on building systems that support software developers based on their affective and cognitive state.
+    - title: M.Sc. in Computer Science
+      institution: Addis Ababa University
+      location: Addis Ababa, Ethiopia
+      url: https://www.aau.edu.et
+      startDate: 2011-09
+      endDate: 2014-06
+      score: 3.96
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis "A Framework for Multi-source Prefetching Through Adaptive Weight" Grade; Excellent
+        - My thesis work implemented a federated machine learning to improve prefetching performance
+    - title: B.Sc. in Computer Science
+      institution: Addis Ababa University
+      location: Addis Ababa, Ethiopia
+      url: https://www.aau.edu.et
+      startDate: 2007-09
+      endDate: 2010-06
+      score: 3.74
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Assistant
+      institution: Department of Computer Science, Virginia Tech
+      url: https://vt.edu
+      startDate: 2023-08
+      endDate: present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conducting research on cognitive support systems to enhance software developer practices at the code world no blanket lab
+        - Designed and conducting qualitative study to understand perspectives and expectations in the source code review process
+        - Worked as a TA for a machine learning course
+        - Instructor of record for a course on Analysis and Design of Algorithms
+    - title: LIS Expert
+      institution: World Bank Group, Addis Ababa, Ethiopia
+      url: https://www.worldbank.org
+      startDate: 2022-03
+      endDate: 2023-06
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Led assessments on six Ethiopian land information systems for the Integrated Land Management Project (ILMP), driving governmental capability enhancements.
+        - Developed high-level requirements for a national system to improve software integration and data sharing.
+        - Outlined land management information system investments, delivering key situation analyses, design recommendations and executed cost-benefit analyses
+    - title: Information Technology Expert
+      institution: NIRAS International Consulting, Addis Ababa, Ethiopia
+      url: https://www.niras.com
+      startDate: 2021-06
+      endDate: 2022-09
       description:
+        - Developed and maintained components for the National Rural Land Information System (NRLAIS) for the Ministry of Agriculture, Ethiopia, using Java EE and Python (QGIS plugin)
+        - Advised on strategic decisions for the national rollout of NRLAIS, addressing incremental functionality additions and regional expansion challenges, including adapting to diverse regional rules, and open source based implementations saving the project an estimated $10M over 10 years in license cost
+    - title: Tech Lead
+      institution: Digital Medarbeider AS, Norway (Remote), Ethiopia
+      url: https://www.digitalmedarbeider.no
+      startDate: 2019-12
+      endDate: 2021-07
+      description:
+        - Designed and developed 12 microservice based SaaS applications primarily using .Net Core RESTful APIs and progressive Angular frontend apps.
+        - Devised and implemented CI/CD strategies using GitLab and Azure DevOps to introduce 45% efficiency in delivery time
+        - Developed and standardized reusable libraries and packages, including authentication, authorization, auditing services.
+        - Designed and developed a suite of reusable libraries for authentication, authorization, auditing, communication, UI framework, and a common services library featuring semi-automatic localization and external API integration proxies scheduling that resulted in up to 28% improvement project bootstrap speed.
+        - Led a team of 18 developers, enhancing project execution and delivering high-quality software products.
+        - Designed and implemented map-based services of cross-application use including support for the Norwegian SOSI formats.
+    - title: Software Developer
+      institution: DAI, Addis Ababa, Ethiopia
+      url: https://www.dai.com
+      startDate: 2014-11
+      endDate: 2017-06
+      description:
+        - Developed two systems for rural land administration one of which went to constitute the National Rural Land Administration System
+        - Designed and developed a mass registration (MASSREG) using Java EE, PostGIS, and Python-enhanced QGIS, certifying over 14 million landholders across 150 Woredas.
+        - Designed and developed a land transaction management system that supported over 20 land transactions with customizable rules for each that was deployed after MASSREG in all Woredas.
+        - Designed a custom MIS with Laravel and MySQL, and pioneered an incremental synchronization feature for offline data integrity across 150 deployment sites.
+    - title: Lecturer
+      institution: Addis Ababa University, Addis Ababa, Ethiopia
+      url: https://www.aau.edu.et
+      startDate: 2014-01
+      endDate: 2023-07
+      description:
+        - Developed two systems for rural land administration one of which went to constitute the National Rural Land Administration System
+        - Designed and developed a mass registration (MASSREG) using Java EE, PostGIS, and Python-enhanced QGIS, certifying over 14 million landholders across 150 Woredas.
+        - Designed and developed a land transaction management system that supported over 20 land transactions with customizable rules for each that was deployed after MASSREG in all Woredas.
+        - Designed a custom MIS with Laravel and MySQL, and pioneered an incremental synchronization feature for offline data integrity across 150 deployment sites.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Nobel Prize in Physics
+      date: 1921-11-01
+      awarder: Royal Swedish Academy of Sciences
+      url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+      summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-- title: Honors and Awards
+- title: Certificates
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - name: Introduction to Machine Learning with TensorFlow
+      date: 2022
+      issuer: Udacity Nano-Degree program
+      url: https://udacity.com
+      icon: fa-solid fa-location-dot
+    - name: Mobile Application Developer
+      date: 2016
+      issuer: IBM
+      url: https://ibm.com
+      icon: fa-solid fa-tag
+    - name: Big Data Developer - Mastery Award
+      date: 2016
+      issuer: IBM
+      url: https://ibm.com
+      icon: fa-solid fa-envelope
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: "'Proposed Experiment on Automatic Bias Detection in Source Code Review', PPIG"
+      publisher: "Yoseph Berhanu Alebachew and Chris Brown"
+      releaseDate: 2024-09
+      url: "#"
+      summary: Bias is an inherent threat to human decision-making, including in decisions made during software development.....
+    - name: "'Challenges, Perceptions and Expectation in Open Source Code Review: An Exploratory Study', FSE"
+      publisher: "Yoseph Berhanu Alebachew, Minhyuk Ko, Chris Brown"
+      releaseDate: 2025-03
+      url: "#"
+      summary: Code reviews are a vital part of the software development process, through which programmers manually review code changes to determine their suitability for merging into a project......
+    - name: "'Human and LLM-Based Resume Matching: An Observational Study', CSCW"
+      publisher: "Swanand Vaishampayan, Hunter Leary, Yoseph Berhanu Alebachew, Chris Brown"
+      releaseDate: 2025-03
+      url: "#"
+      summary: Resume matching-which assesses the extent to which candidates qualify for jobs based on the content of their resume and is the first step in the hiring pipeline ......
+
+- title: Skills
+  type: list
+  contents:
+    - name: Machine Learning
+      level: Master
+      icon: fa-solid fa-hashtag
+      keywords: [PyTorch, Scikit-learn, TensorFlow]
+    - name: Programming
+      level: Master
+      icon: fa-solid fa-hashtag
+      keywords: [Python, Java, JavaScript/TypeScript, C#, PHP, Angular, Spring Boot, Java EE, .NET Core, PostgreSQL, MySQL, MongoDB]
+    - name: Research
+      level: Master
+      icon: fa-solid fa-hashtag
+      keywords: [Quantitative, Qualitative Research]
+    - name: Tools and Platforms
+      level: Master
+      icon: fa-solid fa-hashtag
+      keywords: [Azure DevOps, GitLab CI/CD]
+    - name: Other
+      level: Master
+      icon: fa-solid fa-hashtag
+      keywords: [Microservices Architecture and SaaS, Tech Leadership, Software Project Management, Map-based Service Development, Localization, API Integration]
+
+- title: Languages
+  type: list
+  contents:
+    - language: am
+      fluency: Native speaker
+      icon: ""
+    - language: en
+      fluency: Fluent
+      icon: ""

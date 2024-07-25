@@ -4,7 +4,7 @@ title: "Seaborn Examples"
 description: "Music data clustering using K-Means algorithm"
 # author:
 #   - name: Yoseph Berhanu
-#     url: https://yosephberhanu.github.io/
+#     url: https://yoseph.et/
 #     orcid: 0000-0002-2922-4337
 #     affiliation: PhD student at Virginia Tech
 #     affiliation-url: https://code-world-no-blanket.github.io/
@@ -12,7 +12,7 @@ description: "Music data clustering using K-Means algorithm"
 date: now
 tages: [KMeans,Clustering] # self-defined categories
 # citation: 
-#   url: https://yosephberhanu.github.io/ml-blog/2023-11-24-quarto-blogs/ 
+#   url: https://yoseph.et/ml-blog/2023-11-24-quarto-blogs/ 
 image: ./assets/clustering.jpeg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 date: 2024-06-01 21:01:00
