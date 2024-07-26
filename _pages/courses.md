@@ -1,12 +1,12 @@
-<!-- ---
+---
 layout: page
 permalink: /courses/
 title: Courses
-description: These are some of the courses I taught.
+description: These are some of the courses I taught. (Images Credit - ChatGPT)
 nav: true
 nav_order: 6
 display_categories: [VT, AAU]
-horizontal: false -->
+horizontal: false
 
 ---
 
