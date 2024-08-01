@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Seaborn Examples"
-description: "Music data clustering using K-Means algorithm"
+description: "Seaborn usage examples"
 # author:
 #   - name: Yoseph Berhanu
 #     url: https://yoseph.et/
