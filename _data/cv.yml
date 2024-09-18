@@ -152,7 +152,7 @@
 - title: Publications
   type: list
   contents:
-    - name: "'Proposed Experiment on Automatic Bias Detection in Source Code Review', PPIG"
+    - name: "'Automatic Bias Detection in Source Code Review', PPIG"
       publisher: "Yoseph Berhanu Alebachew and Chris Brown"
       releaseDate: 2024-09
       url: "#"
