@@ -15,6 +15,10 @@ __MASSREG__ – Is an acronym for MASS Registration of Land Parcels. Its softwar
 
 The project is completed and has been successfully used to record over 14 million land records. Even though the initial implementation of MASSREG was planned to be an interim solution (under the name iMASSREG), the success meant it went to was integrated to the permanent National Rural Land Information System [(NRLAIS)](https://www.hansaluftbild.de/fileadmin/Dateien/PDF/Veroeffentlichungen/WorldBankConference2019_LandAdministrationEthiopia.pdf). NRLAIS is operated and maintained by [Ministry of Agriculture](http://moa.gov.et/). [Tadesse _et._ _al._](https://archive.uneca.org/sites/default/files/uploaded-documents/CLPA/2019/Papers/Data-spatial-information-systems/nrlais_camis_integration_alpc_conference_2019.pdf) partially document this integration.
 
+## Demo
+Yohannes Reda, the project manger for NRLAIS, does an excellent job at demostrating some features of MASSREG component of NRLAIS in the following video 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iGX8l2B31gE?si=Y9qTqP9XaHCLnLGp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Responsibilities
 
 - Collect requirement and design system

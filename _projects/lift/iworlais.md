@@ -13,6 +13,9 @@ iWORLAIS (interim WOReda Land Administration Information System) is a software b
 
 ## Current Status
 iWORLAIS has been successfully implemented and deployed in all _Woredas_ that . It is now replaced by the national system once it was ready. The data maintained by iWORLAIS was transferred to WORLAIS component of NRLAIS. 
+## Demo
+Yohannes Reda, the project manger for NRLAIS, does an excellent job at demostrating some features of WORLAIS component of NRLAIS in the following video.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wGLsfRMKtLc?si=2XcOkPlhnbKz00Jc&amp;start=1767" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Responsibilities
 
