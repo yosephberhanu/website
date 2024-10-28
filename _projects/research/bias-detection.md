@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Automatic bias detection in code review
 description: A project aimed at developing technique for detecting bias in code review 
@@ -16,10 +16,6 @@ Amet magna aliqua exercitation duis in. Eiusmod non eu et deserunt excepteur ull
 
 ## Technologies
 
-- Python
-
 ## Links
 
-- GitHub
-- Blog
-- Additional Reference
+- Additional Reference -->

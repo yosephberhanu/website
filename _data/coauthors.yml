@@ -2,9 +2,9 @@
   - firstname: ["Chris Brown", "C."]
     url: https://chbrown13.github.io/
 
-"min":
-  - firstname: ["Min", "Minhyuk"]
-    url: https://people.cs.vt.edu/minhyukko/
+# "min":
+#   - firstname: ["Min", "Minhyuk"]
+#     url: https://people.cs.vt.edu/minhyukko/
 
 "swanand":
   - firstname: ["Swanand"]

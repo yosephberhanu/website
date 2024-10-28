@@ -9,8 +9,8 @@ description: "Seaborn usage examples"
 #     affiliation: PhD student at Virginia Tech
 #     affiliation-url: https://code-world-no-blanket.github.io/
 # date: 2023-07-04 08:57:00-0400
-date: now
-tages: [KMeans,Clustering] # self-defined categories
+date: 2023-07-04 08:57:00-0400
+tages: [KMeans, Clustering] # self-defined categories
 # citation: 
 #   url: https://yoseph.et/ml-blog/2023-11-24-quarto-blogs/ 
 image: ./assets/clustering.jpeg
@@ -18,7 +18,7 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 date: 2024-06-01 21:01:00
 execute: 
   warning: false
-categories: [Machine Learning]
+categories: [Machine Learning, Code, KMeans, Clustering]
 giscus_comments: false
 related_posts: false
 ---
@@ -30,3 +30,4 @@ related_posts: false
 
 <p>Sorry, the blog you are looking for does not exist.</p>
 {% endif %}
+display_tags: ["deep learning", "HCI", "SE","code", ""] # these tags will be displayed on the front page of your blog
