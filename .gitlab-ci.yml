@@ -1,4 +1,4 @@
-image: amirpourmand/al-folio:v0.10.1
+image: amirpourmand/al-folio:sha256:d3abe5d18a804eba2df35872ddc20affc701cb49001ad03341a43888712ba928
 
 
 pages:
