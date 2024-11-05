@@ -1,4 +1,5 @@
-image: amirpourmand/al-folio:latest
+image: amirpourmand/al-folio:v0.10.1
+
 
 pages:
   script:
