@@ -42,6 +42,7 @@ This project focuses on reimplementing influential Convolutional Neural Network 
   - Images were preprocessed and resized to match AlexNet’s input requirements (224x224).  
   - Randomized weight initialization and dropout layers were used to address overfitting challenges.  
   - Demonstrates AlexNet's robustness in adapting to challenging datasets with diverse classes and uncleaned test data.  
+  - View the Jupyter Notebook implementation [here](https://github.com/yosephberhanu/cnn/blob/master/AlexNet/AlexNet.ipynb).
 
 ---
 
