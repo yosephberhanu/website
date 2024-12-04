@@ -52,7 +52,7 @@ compress:
 pages:
   stage: deploy
   script:
-    - mv public/ ./public
+    - echo "Deploying public directory..."
   artifacts:
     paths:
       - public
