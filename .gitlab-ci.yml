@@ -1,8 +1,60 @@
 image: amirpourmand/al-folio:latest
 
-pages:
+stages:
+  - build
+  - compress
+  - deploy
+
+build:
+  stage: build
   script:
+    # Build the site using Jekyll
     - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+
+compress:
+  stage: compress
+  image: alpine:latest
+  script:
+    # Install gzip and Brotli for compression
+    - apk add --no-cache gzip brotli
+    # Compress HTML, CSS, and JS files with gzip
+    - find public -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' \) -exec gzip -k -9 {} +
+    # Compress HTML, CSS, and JS files with Brotli
+    - find public -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' \) -exec brotli -q 11 {} +
+    # Generate the .headers file
+    - echo '/*' > public/.headers
+    - echo '  Content-Encoding: gzip' >> public/.headers
+    - echo '  Cache-Control: max-age=31536000' >> public/.headers
+    - echo '  Content-Type: text/html; charset=utf-8' >> public/.headers
+    - echo '' >> public/.headers
+    - echo '/styles/*.css' >> public/.headers
+    - echo '  Content-Encoding: gzip' >> public/.headers
+    - echo '  Cache-Control: max-age=31536000' >> public/.headers
+    - echo '  Content-Type: text/css; charset=utf-8' >> public/.headers
+    - echo '' >> public/.headers
+    - echo '/scripts/*.js' >> public/.headers
+    - echo '  Content-Encoding: gzip' >> public/.headers
+    - echo '  Cache-Control: max-age=31536000' >> public/.headers
+    - echo '  Content-Type: application/javascript; charset=utf-8' >> public/.headers
+    - echo '' >> public/.headers
+    - echo '/*.html.br' >> public/.headers
+    - echo '  Content-Encoding: br' >> public/.headers
+    - echo '  Content-Type: text/html; charset=utf-8' >> public/.headers
+    - echo '' >> public/.headers
+    - echo '/*.js.br' >> public/.headers
+    - echo '  Content-Encoding: br' >> public/.headers
+    - echo '  Content-Type: application/javascript; charset=utf-8' >> public/.headers
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  script:
+    - mv public/ ./public
   artifacts:
     paths:
       - public
