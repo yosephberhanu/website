@@ -1,24 +1,27 @@
 ---
 layout: page
-title: Conditional Variational Autoencoder
-description: A demonstration of VAE
-img: assets/img/personal/vae.png
+title: Variational Autoencoders and Conditional Variational Autoencoders
+description: A demonstration of VAE and CVAE for generative modeling
+img: assets/img/personal/vae_cvae.png
 importance: 1
 category: fun
-tags: ["Deep Learning", "Python", "VAE", "Generative AI"]
+tags: ["Deep Learning", "Python", "VAE", "CVAE", "Generative AI"]
 related_publications: false
 ---
 ## Project Description
-In this project, I implemented a variational autoencoder (VAE), consisting of an encoder and decoder. The VAE was trained using a cross-entropy loss and a regularization term to enforce a prior distribution on learned variables. To improve generated image quality I replaced reconstruction loss with perceptual loss. I also extracted features from VGG16 for comparison in feature space and performed interpolation between samples in latent space and visualized translations within and across classes.
+This project demonstrates the implementation of **Variational Autoencoders (VAE)** and **Conditional Variational Autoencoders (CVAE)** for generative modeling tasks. The VAE utilizes an encoder-decoder architecture trained with a reconstruction loss and a KL-divergence regularization term to learn meaningful latent space representations. The CVAE extends this by incorporating conditional labels, allowing control over the generated output.
+
+Both models were analyzed through reconstruction tasks, latent space interpolations, and class-conditioned image generation. The project highlights the flexibility and power of these models in capturing complex data distributions.
 
 #### Key Features:
-- Implemented conditional variational autoencoder.
-- Trained VAE on image reconstruction task.
-- Analyzed and visualized latent space interpolations.
+- Implemented a standard VAE and extended it to a CVAE.
+- Trained models on image reconstruction and class-conditional generation tasks.
+- Visualized latent space interpolations to understand the learned representations.
 
 #### Tools and Technologies:
 - Python
 - PyTorch
+- Jupyter Notebook
 
 ### Source Code
-The complete source code for this project is available on [GitHub](#).
+The complete source code for this project is available on [GitHub](https://github.com/yourusername/vae-cvae).
