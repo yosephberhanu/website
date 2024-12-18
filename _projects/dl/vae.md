@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Variational Autoencoders and Conditional Variational Autoencoders
+title: Conditional VAE
 description: A demonstration of VAE and CVAE for generative modeling
-img: assets/img/personal/vae_cvae.png
+img: assets/img/personal/vae.png
 importance: 1
 category: fun
 tags: ["Deep Learning", "Python", "VAE", "CVAE", "Generative AI"]
