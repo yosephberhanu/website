@@ -24,4 +24,4 @@ Both models were analyzed through reconstruction tasks, latent space interpolati
 - Jupyter Notebook
 
 ### Source Code
-The complete source code for this project is available on [GitHub](https://github.com/yourusername/vae-cvae).
+The complete source code for this project is available on [GitHub](https://github.com/yosephberhanu/vae).
