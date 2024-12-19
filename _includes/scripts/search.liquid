@@ -551,6 +551,18 @@
             },
           },
         {%- endif -%}
+
+        {%- if site.zoom_link -%}
+          {
+            id: 'socials-zomm',
+            title: 'Call',
+            section: 'Socials',
+            handler: () => {
+              window.open("{{ site.zoom_link }}", "_blank");
+            },
+          },
+        {%- endif -%}
+
         {%- comment -%}
         {%- if site.wechat_qr -%}
           // check how to add wechat qr code
