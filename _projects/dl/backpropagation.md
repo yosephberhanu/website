@@ -8,8 +8,8 @@ category: fun
 tags: ["Machine Learning", "Python", "CNN"]
 related_publications: no
 ---
-In a personal project I worked on a sample implementation of Automatic Differentiation for Neural Networks based on tutorial from [sentdex](https://www.youtube.com/watch?v=Wo5dMEP_BbI&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3) and examples from [Matthew Johnson
-](https://github.com/mattjj/autodidact) and (https://github.com/HIPS/autograd). 
+In a [personal project], I worked on a sample implementation of [Automatic Differentiation](https://github.com/yosephberhanu/auto-diff/) and [Neural Networks]((https://github.com/yosephberhanu/ylearn)) partly based on tutorial from [sentdex](https://www.youtube.com/watch?v=Wo5dMEP_BbI&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3) and examples from [Matthew Johnson
+](https://github.com/mattjj/autodidact) and [AutoGrad](https://github.com/HIPS/autograd). 
 
 As part of a course requirment for CS5814 at VT I implemented backpropagation for multi-layer perceptrons (MLPs) and convolutional neural networks (CNNs). It provided me hands-on experience with these neural network architectures
 
@@ -30,7 +30,7 @@ Then, I implemented a simple convolutional neural network using NumPy. The task 
 - NumPy
 
 ### Source Code
-The complete source code for this project is available on [GitHub](#).
+The complete source code for these projects is available on GitHub: [Automatic Differentiation](https://github.com/yosephberhanu/auto-diff/), [Simple Neural Networks](https://github.com/yosephberhanu/ylearn), [Multi-layer neural network](#).
 
 
 __Image Credit__: https://blog.zhaytam.com/2018/08/15/implement-neural-network-backpropagation/
