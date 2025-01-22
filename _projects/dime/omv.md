@@ -11,7 +11,7 @@ related_publications: false
 
 A digital Service to apply for permission to drive an outdoor motor vehicle. The overall project objective is to develop a service that enables inhabitants to apply for permission to drive outdoor motor vehicles. The service needs to be developed within the framework of the high-level architecture that is included as part of this document. Specifically, the project is aimed at developing a multi-tenant service that serves two user groups- inhabitants and administrators
 
-Driving with motorized vehicles in the outfield is regulated by the Motor Traffic Act and associated regulations. The law is enforced by municipalities. In Norway, inhabitants can apply to drive motorized vehicles on land, water, and air. Most people will apply for driving on land (snow scooters). The reasons for applications will vary a lot. Some are cabin owners, some have disabilities and need to drive from A to B, and others need to transport items. Current version of the service is available [here](https://fjellfart.no)
+Driving with motorized vehicles in the outfield is regulated by the Motor Traffic Act and associated regulations. The law is enforced by municipalities. In Norway, inhabitants can apply to drive motorized vehicles on land, water, and air. Most people will apply for driving on land (snow scooters). The reasons for applications will vary a lot. Some are cabin owners, some have disabilities and need to drive from A to B, and others need to transport items. Current version of the service is available [here](https://motorferdsel.no/)
 
 ## Technologies
 
