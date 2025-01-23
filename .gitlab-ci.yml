@@ -1,4 +1,4 @@
-image: amirpourmand/al-folio:latest
+image: amirpourmand/al-folio::v0.13.3
 
 stages:
   - build
