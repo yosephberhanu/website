@@ -2,14 +2,33 @@
   - firstname: ["Chris Brown", "C."]
     url: https://chbrown13.github.io/
 
-# "min":
-#   - firstname: ["Min", "Minhyuk"]
-#     url: https://people.cs.vt.edu/minhyukko/
-
-"swanand":
+"Vaishampayan":
   - firstname: ["Swanand"]
-    # url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
+  
 "hunter":
   - firstname: ["Hunter"]
-    # url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+    lastname: ["Leary"]
+
+"yoseph":
+  - firstname: ["Yoseph"]
+    lastname: ["Berhanu Alebachew"]
+
+"louis":
+  - firstname: ["Louis"]
+    lastname: ["Hickman"]
+
+"brent":
+  - firstname: ["Brent"]
+    lastname: ["Stevenor"]
+
+"fletcher":
+  - firstname: ["Fletcher"]
+    lastname: ["Wimbush"]
+
+"weston":
+  - firstname: ["Weston"]
+    lastname: ["Beck"]
+"min":
+  - firstname: ["Min", "Minhyuk"]
+  lastname: "Ko"
+    url: https://people.cs.vt.edu/minhyukko/
