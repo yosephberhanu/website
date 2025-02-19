@@ -30,5 +30,5 @@
     lastname: ["Beck"]
 "min":
   - firstname: ["Min", "Minhyuk"]
-  lastname: "Ko"
+    lastname: "Ko"
     url: https://people.cs.vt.edu/minhyukko/
