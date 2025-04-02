@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Docker Compose Up",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "docker-compose-up",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
