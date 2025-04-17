@@ -7,6 +7,7 @@ nav: true
 nav_order: 3
 display_categories: [fun, work] #research, 
 horizontal: false
+comments: true
 ---
 
 <!-- pages/projects.md -->
