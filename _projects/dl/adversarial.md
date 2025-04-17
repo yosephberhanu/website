@@ -6,6 +6,7 @@ img: assets/img/personal/adversarial.png
 importance: 1
 category: fun
 tags: ["Deep Learning", "Python", "CNN", "Adversarial Attack"]
+comments: true
 related_publications: false
 ---
 This projecct involves using automatic differentiation's capabilities to explain model classifications and create adversarial examples. I first explored how gradients can be used to explain which portion of the input the model relied on for making its classification. Then I implemented [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf) from scratch.

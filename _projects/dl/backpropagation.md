@@ -4,6 +4,7 @@ title: Backprop from scratch
 description: Implemented backpropagation for multi-layer perceptrons (MLPs) and convolutional neural networks (CNNs)
 img: assets/img/personal/backprop.jpg
 importance: 1
+comments: true
 category: fun
 tags: ["Machine Learning", "Python", "CNN"]
 related_publications: no
