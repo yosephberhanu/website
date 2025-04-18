@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Some of my personal and work related projects.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [fun, work] #research, 
 horizontal: false
 comments: true

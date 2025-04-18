@@ -4,7 +4,7 @@ permalink: /contact/
 title: Contact
 description: If you wish to contact me fill in the form below
 nav: true
-nav_order: 7
+nav_order: 5
 ---
 <style>
   .input-group-text {

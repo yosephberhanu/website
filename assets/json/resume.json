@@ -176,6 +176,20 @@
       "releaseDate": "2024-09",
       "url": "https://ppig.org/files/2024-PPIG-35th-alebachew.pdf",
       "summary": "Bias is an inherent threat to human decision-making, including in decisions made during software development....."
+    },
+    {
+      "name": "'Are We on the Same Page? Examining Developer Perception Alignment in Open Source Code Reviews', EASE",
+      "publisher": "Yoseph Berhanu Alebachew and Minhyuk Ko and Chris Brown",
+      "releaseDate": "2025-06",
+      "url": "https://yoseph.et/assets/EASE2025.pdf",
+      "summary": ""
+    },
+    {
+      "name": "'Human and LLM-Based Resume Matching: An Observational Study', NAACL",
+      "publisher": "Swanand Vaishampayan and Hunter Leary and Yoseph Berhanu Alebachew and Louis Hickman and Brent Stevenor and Fletcher Wimbush and Weston Beck and Chris Brown",
+      "releaseDate": "2025-05",
+      "url": "https://yoseph.et/assets/NAACL_2025.pdf",
+      "summary": ""
     }
   ],
   "skills": [

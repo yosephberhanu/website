@@ -4,7 +4,7 @@ permalink: /courses/
 title: Courses
 description: These are some of the courses I taught. (Images Credit - ChatGPT)
 nav: true
-nav_order: 6
+nav_order: 4
 display_categories: [VT, AAU]
 horizontal: false
 
